@@ -4,7 +4,7 @@ import styled from "styled-components";
 import {Navbar, NavbarLogo, NavbarA, NavBarContainer, NavBarUl, NavBarLi} from "./Components/Navbar.js";
 import {MainHeader, MainHead1, MainImage, MainContainer, MainPara, MainButton, MainA, TooltipCard ,TooltipBox, MainUl} from "./Components/Main.js";
 import {ContentContainer, ContentBox, ContentI, ContentSection} from "./Components/Content.js";
-
+import {Info,InfoHead1,InfoContainer} from "./Components/Info.js";
 
 const TooltipText = styled.div`
   background: rgba(28, 56, 151, 0.9);
@@ -106,6 +106,7 @@ function App() {
           </ContentBox>
         </ContentContainer>
         </ContentSection>
+        <Info></Info>
     </Navbar>
   );
 }

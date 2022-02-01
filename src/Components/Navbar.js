@@ -4,6 +4,7 @@ export const Navbar = styled.nav`
     background: #fff;
     color : #434343 ;
     height: 90px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 `
 export const NavbarLogo = styled.div`
     font-size : x-large;
